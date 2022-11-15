@@ -1,0 +1,140 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.js.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.js.map" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.min.js" />
+    <Content Remove="C:\Users\Admin\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.esm.min.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.js.map" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.min.js" />
+    <Content Remove="C:\Users\sys-user.SMI-236\.nuget\packages\bootstrap\5.2.1\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Image\about.jpg" />
+    <None Include="wwwroot\Image\agency.png" />
+    <None Include="wwwroot\Image\bg-1.jpg" />
+    <None Include="wwwroot\Image\bg-2.jpg" />
+    <None Include="wwwroot\Image\bg-3.jpg" />
+    <None Include="wwwroot\Image\bg-6.jpg" />
+    <None Include="wwwroot\Image\bg-about-chief.jpg" />
+    <None Include="wwwroot\Image\bg-wall.jpg" />
+    <None Include="wwwroot\Image\cart-2.jpg" />
+    <None Include="wwwroot\Image\cooking.png" />
+    <None Include="wwwroot\Image\couple-1.png" />
+    <None Include="wwwroot\Image\d-1.png" />
+    <None Include="wwwroot\Image\d-2.png" />
+    <None Include="wwwroot\Image\down-arrow.png" />
+    <None Include="wwwroot\Image\medal.png" />
+    <None Include="wwwroot\Image\person_1.jpg" />
+    <None Include="wwwroot\Image\person_2.jpg" />
+    <None Include="wwwroot\Image\person_3.jpg" />
+    <None Include="wwwroot\Image\person_4.jpg" />
+    <None Include="wwwroot\Image\pizza-1.jpg" />
+    <None Include="wwwroot\Image\pizza-2.jpg" />
+    <None Include="wwwroot\Image\pizza-3.jpg" />
+    <None Include="wwwroot\Image\usericon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.2.1" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
+  </ItemGroup>
+
+</Project>

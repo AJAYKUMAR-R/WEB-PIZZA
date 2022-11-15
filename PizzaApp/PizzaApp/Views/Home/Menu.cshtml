@@ -1,0 +1,60 @@
+﻿
+
+@model IEnumerable<PizzaInformation>
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script src ="~/lib/bootstrap/dist/Menu.js" ></script>
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/Menu.css" />
+    
+
+
+<section id="load">
+    <div class="mt-5" style="text-align:center">
+            <label for="labelpizza" class=" mx-3">Enter the Pizza Name</label>
+            <input  type="search" name="name" id="txtSearch" value="" style="height:35px" />
+    </div>
+    <div>
+        <center class="my-5 container">
+            <h2>Menu</h2>
+            <p>See Here New Combo</p>
+        </center>
+
+        <center>
+                <div class="row  w-100" id="row">
+                <center>
+                    <div class="row  w-100" id="row">
+                        @if (Model != null)
+                        {
+                            @foreach (var item in Model)
+                            {
+                                <div class='col-md-4  mb-3'>
+                                    <div class='card' style='width: 18rem;'>
+                                        <img src="@item.Pizzaimg" class='card-img-top' alt='...'>
+                                        <div class='card-body'>
+                                            <h5 class='card-title'> @item.Pizzaname</h5>
+                                            <p class='' card-text'>@item.Pizzadescription</p>
+                                            <p>$ @item.Pizzaprice</p>
+                                            <button class='btn btn-outline-primary' id='btnorder'>Order</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </center>
+
+                </div>
+        </center>
+        <div class="loader" id="frame"></div>
+
+    </div>
+
+</section>
+
+
+
+

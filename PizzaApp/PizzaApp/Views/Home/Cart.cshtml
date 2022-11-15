@@ -1,0 +1,50 @@
+﻿@model IEnumerable<PizzaInformation>;
+@{
+    var count = 1;
+}
+
+<script src="~/lib/bootstrap/Cart.js"></script>
+<center id="heading" class="m-5">
+  
+</center>
+<center class="m-5">
+    <table class="table table-striped" id="cartTable">
+    <thead>
+        <tr>
+            <td>S.No</td>
+            <td>Pizzaname</td>
+            <td>Pizzadescription</td>
+            <td>Pizzaprice</td>
+            <td>Delete</td>
+        </tr>
+    </thead>
+    <tbody id="t-body">
+            @if(Model != null)
+            {
+                @foreach(var item in Model)
+                {
+                     <tr>
+                        <td>@count</td>
+                        <td>@item.Pizzaname</td>
+                        <td>@item.Pizzadescription</td>
+                        <td>@item.Pizzaprice</td>
+                        <td><button class="btn btn-danger"   onclick="DeleteRowInCart(this)">Delete</button></td>
+                    </tr>
+                    count++;
+                }
+                
+            }
+       
+       </tbody>
+       <tr id="billRow">
+           <td></td>
+           <td></td>
+           <td >Total Quantity : <span id="quantity"></span></td>
+           <td colspan="3" >Total Price $ :<span id="total"></span>.00</td>
+       </tr>
+</table>
+
+<center class="m-5">
+    <button class="btn btn-outline-success" onclick="Save()" >Save</button>
+</center>
+</center>

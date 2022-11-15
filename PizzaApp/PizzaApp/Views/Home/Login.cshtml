@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+@model PizzaApp.Models.LoginModels.LoginUser
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/RegisterForm.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/Index.css" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    
+    <form class="p-3 " action="/Home/LoginResult">
+        <h1 class="text-center text-heading text-primary">Login</h1>
+        <div class="row ">
+            <div class="col-md-3 ">
+            </div>
+            <div class="col-md-6">
+                <div class="form-group w-100  mt-3">
+                    <label for="InputUserName" class="text-heading mb-1">UserName</label>
+                    @Html.TextBoxFor(model => model.CustName, new { @placeholder = "Enter the Name", @class = "form-control input-size" })<br />
+                    @Html.ValidationMessageFor(model => model.CustName, "", new { @class = "text-danger" })
+                </div>
+                
+                <div class="form-group w-100   mt-3">
+                    <label for="InputMobile" class="text-heading mb-1">Password</label>
+                    @Html.TextBoxFor(model => model.Custmobile, new { @placeholder = "Enter the Password", @class = "form-control" })<br />
+                    @Html.ValidationMessageFor(model => model.Custmobile, "", new { @class = "text-danger" })
+                </div>
+                <h6 style="color:red"> @ViewBag.Error</h6>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+
+                <a asp-controller="Home" asp-action="Register" class="btn btn-primary mt-3 mx-3">Register</a>
+            </div>
+            <div class="col-md-3   ">
+               
+            </div>
+
+        </div>
+    </form>
+   
+</body>
+</html>
+

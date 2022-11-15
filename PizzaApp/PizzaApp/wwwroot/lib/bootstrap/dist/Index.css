@@ -1,0 +1,31 @@
+﻿@media screen and (max-width: 475px) {
+    .text-heading {
+        font-size: x-small !important;
+    }
+}
+
+
+.hover-one:hover {
+    color:black !important;
+    font-size:large !important;
+    font-weight:600;
+}
+
+.size{
+    height:450px !important;
+    object-fit:contain;
+
+}
+c-img{
+    height: 250px !important;
+    
+}
+
+.bg-back {
+    background-color: #ffff;
+}
+
+.nav-back {
+    background-color: #f5f3eb;
+}
+

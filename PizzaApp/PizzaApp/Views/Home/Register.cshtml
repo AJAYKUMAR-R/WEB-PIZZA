@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+@model RegisterDetails
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/RegisterForm.css" />
+    <style>
+    </style>
+</head>
+
+<body>
+    @ViewBag.Alert;
+    <form class="p-3 " action="/Home/RegisterComplete">
+        <h1 class="text-center text-heading text-primary">Register Form</h1>
+        <div class="row ">
+            <div class="col-md-3 ">
+            </div>
+            <div class="col-md-6">
+                <div class="form-group w-100  mt-3">
+                    <label for="InputUserName" class="text-heading mb-1">UserName</label>
+                    @Html.TextBoxFor(model => model.CustName, new { @placeholder = "Enter the Name", @class = "form-control input-size" })<br />
+                    @Html.ValidationMessageFor(model => model.CustName, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group w-100   mt-3">
+                    <label for="InputMobile" class="text-heading mb-1">Mobile </label>
+                    @Html.TextBoxFor(model => model.Custmobile, new { @placeholder = "Enter the Mobile", @class = "form-control" })<br />
+                    @Html.ValidationMessageFor(model => model.Custmobile, "", new { @class = "text-danger" })
+
+                </div>
+                <div class="form-group w-100  mt-3">
+                    <label for="exampleInputPassword1" class="text-heading mb-1">Address</label>
+                    @Html.TextAreaFor(model => model.CustAddres, new { @class = "form-control  ", @Id = "exampleInputPassword1", @palceholder = "Enter the Adress" })<br />
+                    @Html.ValidationMessageFor(model => model.CustAddres, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group w-100   mt-3">
+                    <label for="InputMobile" class="text-heading mb-1">PinCode</label>
+
+                    @Html.TextBoxFor(model => model.CustPinCode, new { @placeholder = "Enter the PinCode", @class = "form-control" })<br />
+                    @Html.ValidationMessageFor(model => model.CustPinCode, "", new { @class = "text-danger" })
+
+                </div>
+                <h6 style="color:red"> @ViewBag.Error</h6>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                
+            </div>
+            <div class="col-md-3   ">
+
+            </div>
+
+        </div>
+    </form>
+    
+</body>
+</html>
